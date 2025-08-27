@@ -27,3 +27,35 @@ The system is tested on [Dataset Name] (e.g., MovieLens, Pinterest-like datasets
 - Implement Alternating Least Squares (ALS) for matrix factorization.
 - Add support for real-time recommendations.
 - Integrate with a web service for interactive recommendations.
+
+## Installation
+
+1. Compile your C++ code
+   ```bash
+   g++ -o recommendation_app your_code.cpp
+
+
+2. Install Node.js dependencies
+   ```bash
+   npm init -y
+   npm install express cors
+
+3. Start the Node.js bridge server
+   ```bash
+   node server.js
+
+
+4. Start the React application
+   ```bash
+   npm start
+
+## Project Structure
+
+├── recommendation_app      # Your compiled C++ executable
+├── server.js              # Node.js bridge server
+├── src/
+│   ├── App.js            # Main React component
+│   └── App.css           # Pinterest-style styling
+├── package.json          # Node.js dependencies
+└── README.md            # This file
+
