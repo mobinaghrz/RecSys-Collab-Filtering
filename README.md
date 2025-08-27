@@ -51,11 +51,10 @@ The system is tested on [Dataset Name] (e.g., MovieLens, Pinterest-like datasets
 
 ## Project Structure
 
-├── recommendation_app      # Your compiled C++ executable
-├── server.js              # Node.js bridge server
+├── recommendation_app # Your compiled C++ executable
+├── server.js # Node.js bridge server
 ├── src/
-│   ├── App.js            # Main React component
-│   └── App.css           # Pinterest-style styling
-├── package.json          # Node.js dependencies
-└── README.md            # This file
-
+│ ├── App.js # Main React component
+│ └── App.css # Pinterest-style styling
+├── package.json # Node.js dependencies
+└── README.md # This file
